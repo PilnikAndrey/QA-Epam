@@ -1,0 +1,9 @@
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.deps.json
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.dll
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.pdb
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csprojAssemblyReference.cache
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfoInputs.cache
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfo.cs
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.dll
+E:\4 kurs\QA\QA-Epam\Triangle\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.pdb
