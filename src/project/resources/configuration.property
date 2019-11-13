@@ -1,0 +1,6 @@
+browser=chrome
+lang=ru
+url=https://store.steampowered.com/
+datafile=src/project/resources/datatest.xml
+implicitlyWait=20
+explicitlyWait=10
