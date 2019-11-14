@@ -1,5 +1,5 @@
 browser=chrome
-lang=ru
+lang=en-US
 url=https://store.steampowered.com/
 datafile=src/project/resources/datatest.xml
 implicitlyWait=20

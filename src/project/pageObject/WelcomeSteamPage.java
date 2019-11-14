@@ -20,7 +20,7 @@ public class WelcomeSteamPage {
     public void clickInstallButton() {
         buttonInstall.waitVisibilityOfElement();
         buttonInstall.clickButton();
-        await().atMost(Integer.parseInt(ConfigReader.getProperty("implicitlyWait")), TimeUnit.SECONDS)
+        await().atMost(Integer.parseInt(ConfigReader.getProperty("explicitlyWait")), TimeUnit.SECONDS)
                 .ignoreExceptions()
                 .until(ExistFile::checkExistFile);
     }

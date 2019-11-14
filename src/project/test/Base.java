@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeTest;
 
 public class Base {
 
-
     @BeforeTest
     public void setup() {
         Browser.getUrl(ConfigReader.getProperty("url"));

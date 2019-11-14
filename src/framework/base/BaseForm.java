@@ -1,4 +1,5 @@
 package framework.base;
 
-public class BaseForm {
+public abstract class BaseForm {
+
 }
