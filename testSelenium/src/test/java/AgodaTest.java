@@ -5,17 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.time.LocalTime;
-import java.util.Arrays;
 
-
-public class RzdWebTest {
+public class AgodaTest {
 
 	private static final int WAIT_SECONDS_TO_LOAD = 10;
 
@@ -68,7 +63,7 @@ public class RzdWebTest {
 	}
 
 	@Test
-	public void shouldListNoRoutesTodayFromMoscowToMoscow() throws InterruptedException {
+	public void checkingHotels() throws InterruptedException {
 		driver.get("https://www.agoda.com");
 		Thread.sleep(3000);//ul[@class="AutocompleteList"]/li[1]
 		WebDriverWait wait = new WebDriverWait(driver, 100);
