@@ -12,7 +12,7 @@ public class MainMenu extends BaseForm {
 
     public void clickGames(By locator) {
         gamesList = new DropList(locator);
-        gamesList.clickButton();
+        gamesList.hoverElement();
     }
 
     public void clickActions(By locator) {

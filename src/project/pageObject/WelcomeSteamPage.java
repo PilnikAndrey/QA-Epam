@@ -23,6 +23,8 @@ public class WelcomeSteamPage {
         await().atMost(Integer.parseInt(ConfigReader.getProperty("explicitlyWait")), TimeUnit.SECONDS)
                 .ignoreExceptions()
                 .until(ExistFile::checkExistFile);
+
+
     }
 
 }

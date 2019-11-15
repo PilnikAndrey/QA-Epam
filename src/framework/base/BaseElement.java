@@ -3,6 +3,9 @@ package framework.base;
 import framework.browser.Browser;
 import framework.waits.Waiter;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
 
 public abstract class BaseElement {
 
@@ -24,4 +27,11 @@ public abstract class BaseElement {
         Waiter.waitVisibilityOfElementLocated(locator);
     }
 
+    public String getText() {
+        return Browser.getDriver().findElement(locator).getText();
+    }
+
+    public ArrayList<WebElement> findElements() {
+        return (ArrayList<WebElement>) Browser.getDriver().findElements(locator);
+    }
 }

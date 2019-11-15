@@ -14,8 +14,8 @@ public class XmlReader {
     private static final int INDEX_ITEM = 0;
     private static String data;
 
-    public static String readXml(String key) {
-        File file = new File(ConfigReader.getProperty("datafile"));
+    public static String readXml(String filename,String key) {
+        File file = new File(filename);
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
                 .newInstance();
         DocumentBuilder documentBuilder = null;

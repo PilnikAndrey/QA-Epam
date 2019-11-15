@@ -1,6 +1,9 @@
 browser=chrome
-lang=en-US
+lang=ru
 url=https://store.steampowered.com/
 datafile=src/project/resources/datatest.xml
+ru_dictionary=src/project/resources/ru-dictionary.xml
+en_dictionary=src/project/resources/en-dictionary.xml
+download_folder=/home/ITRANSITION.CORP/a.pilnik/Downloads/
 implicitlyWait=20
 explicitlyWait=10

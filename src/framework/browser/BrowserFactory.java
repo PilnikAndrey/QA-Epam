@@ -1,6 +1,7 @@
 package framework.browser;
 
 import framework.exception.DriverError;
+import framework.utils.ConfigReader;
 import framework.utils.XmlReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -32,7 +33,7 @@ public class BrowserFactory {
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
         options.addPreference("browser.download.folderList", 2);
-        options.addPreference("browser.download.dir", XmlReader.readXml("path"));
+        options.addPreference("browser.download.dir", XmlReader.readXml(ConfigReader.getProperty("datafile"),"path"));
         options.addPreference("browser.download.useDownloadDir", true);
         options.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/x-debian-package");
         options.addPreference("pdfjs.disabled", true);
@@ -44,7 +45,7 @@ public class BrowserFactory {
         WebDriverManager.chromedriver().setup();
         HashMap<String, Object> chromePrefs = new HashMap<>();
         chromePrefs.put("profile.default_content_settings.popups", 0);
-        chromePrefs.put("download.default_directory", XmlReader.readXml("path"));
+        chromePrefs.put("download.default_directory", XmlReader.readXml(ConfigReader.getProperty("datafile"),"path"));
         chromePrefs.put("safebrowsing.enabled", true);
         chromePrefs.put("intl.accept_languages", lang);
         chromePrefs.put("browser.download.manager.closeWhenDone", false);
