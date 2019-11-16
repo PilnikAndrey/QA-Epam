@@ -21,9 +21,9 @@ public class HighestDiscount extends Base {
         mainPage.chooseActionCategory();
         Thread.sleep(3000);
         actionPage = new ActionPage();
-        Assert.assertTrue(actionPage.checkActionPage(),"Actions category didn't open");
+        Assert.assertTrue(actionPage.checkActionPage(), "Actions category didn't open");
         actionPage.clickTopSelling();
-        Assert.assertTrue(actionPage.checkTopSelling(),"Top Selling didn't open");
+        Assert.assertTrue(actionPage.checkTopSelling(), "Top Selling didn't open");
         Thread.sleep(3000);
         actionPage.getGamesWithDiscount();
         actionPage.clickMax();
@@ -31,7 +31,11 @@ public class HighestDiscount extends Base {
         ageGatePage = new AgeGatePage();
         ageGatePage.check();
         gamePage = new GamePage();
-
+        Thread.sleep(2000);
+        Assert.assertTrue(gamePage.equalsName(), "errr");
+        Assert.assertTrue(gamePage.equalsDiscountInitial(), "errr");
+        Assert.assertTrue(gamePage.equalsDiscountPrice(), "errr");
+        Assert.assertTrue(gamePage.equalsDiscountRate(), "errr");
         Thread.sleep(3000);
     }
 }

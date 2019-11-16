@@ -15,6 +15,7 @@ public class MainPage {
     private By installLocator = By.xpath("//div[contains(@class,'header_installsteam_btn header_installsteam_btn_green')]");
     private By gamesCategory = By.xpath("//div[@id='genre_tab']");
     private By actionsCategory = By.xpath("//a[@class='popup_menu_item'][contains(text(),'" + XmlReader.readXml(GetDictionary.getDictionary(),"actions") + "')]");
+    private By indiCategory = By.xpath("//a[@class='popup_menu_item'][contains(text(),'" + XmlReader.readXml(GetDictionary.getDictionary(),"indi") + "')]");
     private Block block = new Block(checkMainPageLocator);
     private Button buttonInstall = new Button(installLocator);
 
@@ -33,6 +34,11 @@ public class MainPage {
         mainMenu.clickGames(gamesCategory);
         Waiter.waitVisibilityOfElementLocated(actionsCategory);
         mainMenu.clickActions(actionsCategory);
+    }
+    public void chooseIndiCategory() {
+        mainMenu.clickGames(gamesCategory);
+        Waiter.waitVisibilityOfElementLocated(actionsCategory);
+        mainMenu.clickActions(indiCategory);
     }
 
 }

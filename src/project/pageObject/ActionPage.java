@@ -22,7 +22,8 @@ public class ActionPage {
     private String discountRatelocator = "(//div[@id='tab_content_TopSellers']//div[@class='discount_block tab_item_discount']//div[@class='discount_pct'])";
     private String discountPrices = "(//div[@id='tab_content_TopSellers']//div[@class='discount_block tab_item_discount']//div[@class='discount_prices']//div[@class='discount_final_price'])";
     private String initialPrice = "(//div[@id='tab_content_TopSellers']//div[@class='discount_block tab_item_discount']//div[@class='discount_prices']//div[@class='discount_original_price'])";
-
+    private final String STRING_FORMAT_NAME_OF_GAME = "(//div[@id='tab_content_TopSellers']//div[@class='discount_block tab_item_discount']//div[@class='discount_pct'])[%d]//ancestor::a//div[@class='tab_item_name']";
+    private final String STRING_FORMAT_ELEMENT_OF_GAMES = "%s[%d]";
     private Block lable = new Block(checkActionPage);
     private Button menuButton = new Button(topSellingActive);
 
@@ -32,6 +33,10 @@ public class ActionPage {
 
     public boolean checkActionPage() {
         return lable.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), "actions"));
+    }
+
+    public boolean checkIndiPage() {
+        return lable.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), "indi"));
     }
 
     public void clickTopSelling() {
@@ -45,8 +50,11 @@ public class ActionPage {
     }
 
     private Button getElementOfGames(String locator, int index) {
-        Button price = new Button(By.xpath(locator + "[" + index + "]"));
-        return price;
+        return new Button(By.xpath(String.format(STRING_FORMAT_ELEMENT_OF_GAMES, locator, index)));
+    }
+
+    private Button getNameOfGameWithHighestDiscount(int index) {
+        return new Button(By.xpath(String.format(STRING_FORMAT_NAME_OF_GAME, index)));
     }
 
     public void getGamesWithDiscount() {
@@ -56,15 +64,30 @@ public class ActionPage {
             games.setDiscountedPrices(getElementOfGames(discountPrices, index).getText());
             games.setDiscountRate(parseToInt(getElementOfGames(discountRatelocator, index).getText()));
             games.setInitial(getElementOfGames(initialPrice, index).getText());
+            games.setName(getNameOfGameWithHighestDiscount(index).getText());
             gamesArrayList.add(games);
             index++;
         }
     }
 
+    private int getMinimal() {
+        int min = 100;
+        int index = 0;
+        int count = 1;
+        for (Games element : gamesArrayList) {
+            if (element.getDiscountRate() < min) {
+                min = element.getDiscountRate();
+                index = count;
+            }
+            count++;
+        }
+        return index;
+    }
+
     private int getMaximize() {
         int max = 0;
         int index = 0;
-        int count = 0;
+        int count = 1;
         for (Games element : gamesArrayList) {
             if (element.getDiscountRate() > max) {
                 max = element.getDiscountRate();
@@ -72,21 +95,27 @@ public class ActionPage {
             }
             count++;
         }
-        return index + 1;
+        return index;
+    }
+
+    public void clickMin() {
+        setInfoMaxDiscountGame(getMinimal());
+        getElementOfGames(discountRatelocator, getMinimal()).clickButton();
     }
 
     public void clickMax() {
-        setInfoMaxDiscountGame();
+        setInfoMaxDiscountGame(getMaximize());
         getElementOfGames(discountRatelocator, getMaximize()).clickButton();
     }
+
 
     private int parseToInt(String price) {
         return Integer.parseInt(price.substring(1, price.length() - 1));
     }
 
-    private void setInfoMaxDiscountGame() {
+    private void setInfoMaxDiscountGame(int index) {
         Games games = new Games();
-        games = gamesArrayList.get(getMaximize());
+        games = gamesArrayList.get(index - 1);
         MaxDiscountGame.setDiscountedPrices(games.getDiscountedPrices());
         MaxDiscountGame.setDiscountRate(games.getDiscountRate());
         MaxDiscountGame.setInitial(games.getInitial());
