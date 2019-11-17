@@ -1,6 +1,7 @@
 package project.test;
 
 import framework.utils.ExistFile;
+import framework.utils.LogUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import project.pageObject.MainPage;
@@ -15,10 +16,15 @@ public class SteamDownload extends Base {
     public void downloadSteamApp() {
         mainPage = new MainPage();
         welcomeSteamPage = new WelcomeSteamPage();
-        Assert.assertTrue(mainPage.checkMainPage(), "Main page didn't open");
+        LogUtils.getLog().info("Open Main Page");
+        Assert.assertTrue(mainPage.checkMainPage(), "The Main page is not opened.");
+        LogUtils.getLog().info("Click install button");
         mainPage.clickInstallButton();
-        Assert.assertTrue(welcomeSteamPage.checkWelcomeSteamPage(), "Welcome Steam page didn't open");
+        LogUtils.getLog().info("Check 'Welcome Steam Page'");
+        Assert.assertTrue(welcomeSteamPage.checkWelcomeSteamPage(), "The Welcome Steam page is not opened.");
+        LogUtils.getLog().info("Click download steam");
         welcomeSteamPage.clickInstallButton();
-        Assert.assertTrue(ExistFile.checkExistFile(), "File doesn't exist");
+        LogUtils.getLog().info("Check exist steam file");
+        Assert.assertTrue(ExistFile.checkExistFile(), "The steam app setup file isn't downloaded.");
     }
 }

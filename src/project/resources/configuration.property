@@ -5,5 +5,7 @@ datafile=src/project/resources/datatest.xml
 ru_dictionary=src/project/resources/ru-dictionary.xml
 en_dictionary=src/project/resources/en-dictionary.xml
 download_folder=/home/ITRANSITION.CORP/a.pilnik/Downloads/
+log_config=src/project/resources/log.properties
 implicitlyWait=5
 explicitlyWait=10
+file_name=steam_latest.deb

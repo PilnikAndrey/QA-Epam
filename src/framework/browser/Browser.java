@@ -2,6 +2,7 @@ package framework.browser;
 
 import framework.exception.DriverError;
 import framework.utils.ConfigReader;
+import framework.waits.Waiter;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -15,7 +16,7 @@ public class Browser {
 
     public static WebDriver getDriver() throws DriverError {
         if (driver == null) {
-            driver = BrowserFactory.getBrowser(ConfigReader.getProperty("browser"), ConfigReader.getProperty("lang"));
+            driver = BrowserFactory.getBrowser(ConfigReader.getProperty("browser"));
         }
         return driver;
     }
@@ -28,7 +29,7 @@ public class Browser {
         Browser.getDriver().manage().window().maximize();
     }
 
-    public static void setImplicitlyWait(int timeout) {
-        Browser.getDriver().manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+    public static void setImplicitlyWait() {
+        Waiter.implicitlyWait();
     }
 }

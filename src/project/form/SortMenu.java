@@ -1,6 +1,7 @@
 package project.form;
 
 import framework.elements.Button;
+import framework.utils.LogUtils;
 import org.openqa.selenium.By;
 
 public class SortMenu {
@@ -8,7 +9,8 @@ public class SortMenu {
     private Button menuButton;
 
     public void clickMenuItem(By locator) {
-        menuButton = new Button(locator);
+        menuButton = new Button(locator,"TopSellers button");
+        LogUtils.getLog().info(String.format("Click %s .",menuButton.getNameOfElement()));
         menuButton.clickButton();
     }
 }

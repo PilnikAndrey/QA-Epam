@@ -1,41 +1,50 @@
 package project.test;
 
+import framework.utils.ConfigReader;
+import framework.utils.LogUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project.pageObject.ActionPage;
+import project.pageObject.CategoryPage;
 import project.pageObject.AgeGatePage;
 import project.pageObject.GamePage;
 import project.pageObject.MainPage;
 
+import java.util.logging.Logger;
+
 public class HighestDiscount extends Base {
 
     private MainPage mainPage;
-    private ActionPage actionPage;
+    private CategoryPage categoryPage;
     private AgeGatePage ageGatePage;
     private GamePage gamePage;
 
     @Test
-    public void checkHighestDiscount() throws InterruptedException {
+    public void checkHighestDiscount() {
         mainPage = new MainPage();
-        Assert.assertTrue(mainPage.checkMainPage(), "Main page didn't open");
+        LogUtils.getLog().info("Open Main Page");
+        Assert.assertTrue(mainPage.checkMainPage(), "The Main page is not opened.");
+        LogUtils.getLog().info("Choose Action Category");
         mainPage.chooseActionCategory();
-        Thread.sleep(3000);
-        actionPage = new ActionPage();
-        Assert.assertTrue(actionPage.checkActionPage(), "Actions category didn't open");
-        actionPage.clickTopSelling();
-        Assert.assertTrue(actionPage.checkTopSelling(), "Top Selling didn't open");
-        Thread.sleep(3000);
-        actionPage.getGamesWithDiscount();
-        actionPage.clickMax();
-        Thread.sleep(3000);
+        categoryPage = new CategoryPage();
+        LogUtils.getLog().info("Check 'Browsing Action' page");
+        Assert.assertTrue(categoryPage.checkActionPage(), "'Browsing Action' page is not opened.");
+        LogUtils.getLog().info("Click Top Selling");
+        categoryPage.clickTopSelling();
+        LogUtils.getLog().info("Check Top Selling category");
+        Assert.assertTrue(categoryPage.checkTopSelling(), "'Top Selling' tab is not opened.");
+        LogUtils.getLog().info("Click on the game with the maximum discount");
+        categoryPage.clickMax();
         ageGatePage = new AgeGatePage();
+        LogUtils.getLog().info("Check Age Gate page");
         ageGatePage.check();
         gamePage = new GamePage();
-        Thread.sleep(2000);
-        Assert.assertTrue(gamePage.equalsName(), "errr");
-        Assert.assertTrue(gamePage.equalsDiscountInitial(), "errr");
-        Assert.assertTrue(gamePage.equalsDiscountPrice(), "errr");
-        Assert.assertTrue(gamePage.equalsDiscountRate(), "errr");
-        Thread.sleep(3000);
+        LogUtils.getLog().info("Check selected game page");
+        Assert.assertTrue(gamePage.equalsName(), "Selected game page is not opened.");
+        LogUtils.getLog().info("Check equal initial price");
+        Assert.assertTrue(gamePage.equalsDiscountInitial(), "Initial prices don't match.");
+        LogUtils.getLog().info("Check equal discount price");
+        Assert.assertTrue(gamePage.equalsDiscountPrice(), "Discount prices don't match.");
+        LogUtils.getLog().info("Check equal discount rate");
+        Assert.assertTrue(gamePage.equalsDiscountRate(), "Discount rates don't match.");
     }
 }

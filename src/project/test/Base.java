@@ -2,20 +2,33 @@ package project.test;
 
 import framework.browser.Browser;
 import framework.utils.ConfigReader;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import framework.utils.LogUtils;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterSuite;
+
 
 public class Base {
 
-    @BeforeTest
-    public void setup() {
+    @BeforeClass
+    public void getUrl() {
+        LogUtils.getLog().info("Go to" + ConfigReader.getProperty("url"));
         Browser.getUrl(ConfigReader.getProperty("url"));
-        Browser.setImplicitlyWait(Integer.parseInt(ConfigReader.getProperty("implicitlyWait")));
+    }
+
+    @BeforeSuite
+    public void setup() {
+        PropertyConfigurator.configure(ConfigReader.getProperty("log_config"));
+        LogUtils.getLog().info("Set implicitly Wait");
+        Browser.setImplicitlyWait();
+        LogUtils.getLog().info("Maximize window");
         Browser.maximizeWindow();
     }
 
-    @AfterTest
+    @AfterSuite
     public void closeBrowser() {
+        LogUtils.getLog().info("Close browser");
         Browser.getDriver().close();
     }
 

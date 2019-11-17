@@ -2,9 +2,19 @@
 
 <suite name="Suite" verbose="1">
 
-    <test name="Steam">
-        <packages>
-            <package name="project.test"/>
-        </packages>
+    <test name="Second Test Suite">
+        <classes>
+            <class name="project.test.HighestDiscount"/>
+            <class name="project.test.LowestDiscount"/>
+        </classes>
     </test>
+
+    <test name="First Test Suite">
+        <classes>
+            <class name="project.test.SteamDownload"/>
+        </classes>
+    </test>
+
+
 </suite>
+
