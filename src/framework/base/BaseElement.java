@@ -1,6 +1,7 @@
 package framework.base;
 
 import framework.browser.Browser;
+import framework.utils.LogUtils;
 import framework.waits.Waiter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,8 @@ public abstract class BaseElement {
         this.nameOfElement = nameOfElement;
     }
 
-    public void clickButton() {
+    public void click() {
+        LogUtils.info(String.format("Click %s .", nameOfElement));
         Browser.getDriver().findElement(locator).click();
     }
 
@@ -27,6 +29,7 @@ public abstract class BaseElement {
     }
 
     public boolean isDisplayed() {
+        LogUtils.info(String.format("Check %s is displayed.", nameOfElement));
         return Browser.getDriver().findElements(locator).size() > 0;
     }
 
@@ -35,15 +38,18 @@ public abstract class BaseElement {
     }
 
     public String getText() {
+        LogUtils.info(String.format("Get text from %s.", nameOfElement));
         return Browser.getDriver().findElement(locator).getText();
     }
 
     public ArrayList<WebElement> findElements() {
+        LogUtils.info(String.format("Find elements %s.", nameOfElement));
         return (ArrayList<WebElement>) Browser.getDriver().findElements(locator);
     }
 
     public void hoverElement() {
         Actions actions = new Actions(Browser.getDriver());
+        LogUtils.info(String.format("Hover %s.", nameOfElement));
         WebElement elementMenu = Browser.getDriver().findElement(locator);
         actions.moveToElement(elementMenu).perform();
     }

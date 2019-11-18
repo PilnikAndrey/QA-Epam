@@ -13,22 +13,22 @@ public class Base {
 
     @BeforeClass
     public void getUrl() {
-        LogUtils.getLog().info("Go to" + ConfigReader.getProperty("url"));
+        LogUtils.info("Go to" + ConfigReader.getProperty("url"));
         Browser.getUrl(ConfigReader.getProperty("url"));
     }
 
     @BeforeSuite
     public void setup() {
         PropertyConfigurator.configure(ConfigReader.getProperty("log_config"));
-        LogUtils.getLog().info("Set implicitly Wait");
+        LogUtils.info("Set implicitly Wait");
         Browser.setImplicitlyWait();
-        LogUtils.getLog().info("Maximize window");
+        LogUtils.info("Maximize window");
         Browser.maximizeWindow();
     }
 
     @AfterSuite
     public void closeBrowser() {
-        LogUtils.getLog().info("Close browser");
+        LogUtils.info("Close browser");
         Browser.getDriver().close();
     }
 

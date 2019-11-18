@@ -11,14 +11,14 @@ public class MainMenu {
     private Button actionsCategory;
 
     public void clickGames(By locator) {
-        gamesList = new DropList(locator,"Games button");
-        LogUtils.getLog().info(String.format("Hover %s.",gamesList.getNameOfElement()));
+        gamesList = new DropList(locator, "Games button");
+        LogUtils.info(String.format("Hover %s.", gamesList.getNameOfElement()));
         gamesList.hoverElement();
     }
 
     public void clickCategory(By locator) {
-        actionsCategory = new Button(locator,"Category button");
-        LogUtils.getLog().info(String.format("Click %s.",actionsCategory.getNameOfElement()));
-        actionsCategory.clickButton();
+        actionsCategory = new Button(locator, "Category button");
+        LogUtils.info(String.format("Click %s.", actionsCategory.getNameOfElement()));
+        actionsCategory.click();
     }
 }

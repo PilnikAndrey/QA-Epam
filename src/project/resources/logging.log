@@ -1,0 +1,915 @@
+2019-11-17 16:24:39 INFO  LogUtils:23 - dsdsdsdsd
+2019-11-17 17:18:12 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:18:13 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:18:13 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:18:16 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:18:16 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:18:16 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:18:16 INFO  LogUtils:40 - Click Games
+2019-11-17 17:18:16 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:18:16 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:18:16 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:18:18 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:18:18 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:18:18 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:18:18 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:18:18 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:18:18 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:18:19 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:18:19 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:18:19 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:18:19 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:18:19 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:18:19 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:18:19 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:18:20 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:18:20 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:18:20 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:18:21 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:18:21 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:18:21 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:18:22 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:18:22 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:18:22 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:18:22 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:18:22 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:18:22 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:18:22 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:18:22 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:18:25 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:18:25 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:18:25 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:18:25 INFO  LogUtils:48 - Click Games
+2019-11-17 17:18:25 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:18:25 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:18:25 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:18:28 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:18:28 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:18:28 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:18:28 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:18:28 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:18:29 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:18:29 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:18:29 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:18:29 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:18:29 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:18:29 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:18:29 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:18:29 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:18:31 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:18:31 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:18:36 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:18:36 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:18:41 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:18:41 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:18:41 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:18:41 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:18:41 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:18:41 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:18:41 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:18:41 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:18:43 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:18:43 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:18:43 INFO  LogUtils:21 - Click install button
+2019-11-17 17:18:43 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:18:44 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:18:44 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:18:44 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:18:44 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:18:45 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:18:47 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:18:47 INFO  LogUtils:31 - Close browser
+2019-11-17 17:19:10 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:19:10 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:19:11 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:19:13 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:19:13 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:19:14 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:19:14 INFO  LogUtils:40 - Click Games
+2019-11-17 17:19:14 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:19:14 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:19:14 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:19:16 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:19:16 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:19:16 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:19:16 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:19:16 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:19:16 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:19:16 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:19:16 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:19:16 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:19:16 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:19:16 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:19:17 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:19:17 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:19:18 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:19:18 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:19:18 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:19:18 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:19:18 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:19:18 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:19:19 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:19:19 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:19:19 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:19:19 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:19:19 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:19:19 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:19:19 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:19:19 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:19:22 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:19:22 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:19:22 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:19:22 INFO  LogUtils:48 - Click Games
+2019-11-17 17:19:22 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:19:22 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:19:22 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:19:24 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:19:24 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:19:24 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:19:24 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:19:24 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:19:24 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:19:25 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:19:25 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:19:25 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:19:25 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:19:25 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:19:25 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:19:25 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:19:26 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:19:26 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:19:31 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:19:31 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:19:37 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:19:37 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:19:37 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:19:37 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:19:37 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:19:37 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:19:37 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:19:37 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:19:39 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:19:39 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:19:39 INFO  LogUtils:21 - Click install button
+2019-11-17 17:19:39 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:19:45 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:19:45 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:19:45 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:19:45 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:19:45 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:19:48 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:19:48 INFO  LogUtils:31 - Close browser
+2019-11-17 17:20:10 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:20:11 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:20:11 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:20:14 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:20:14 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:20:14 INFO  LogUtils:21 - Click install button
+2019-11-17 17:20:14 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:20:15 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:20:15 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:20:15 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:20:15 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:20:16 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:20:18 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:20:18 INFO  LogUtils:31 - Close browser
+2019-11-17 17:21:47 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:21:52 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:21:53 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:21:56 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:21:56 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:21:56 INFO  LogUtils:21 - Click install button
+2019-11-17 17:21:56 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:21:56 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:21:56 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:21:57 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:21:57 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:22:02 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:22:02 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:22:02 INFO  LogUtils:31 - Close browser
+2019-11-17 17:22:17 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:22:19 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:22:19 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:22:22 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:22:22 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:22:22 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:22:22 INFO  LogUtils:40 - Click Games
+2019-11-17 17:22:22 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:22:22 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:22:22 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:22:24 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:22:24 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:22:24 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:22:24 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:22:24 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:22:24 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:22:24 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:22:24 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:22:24 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:22:24 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:22:24 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:22:25 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:22:25 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:22:26 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:22:26 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:22:26 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:22:26 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:22:26 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:22:26 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:22:27 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:22:27 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:22:27 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:22:27 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:22:27 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:22:27 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:22:27 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:22:27 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:22:30 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:22:30 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:22:30 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:22:30 INFO  LogUtils:48 - Click Games
+2019-11-17 17:22:30 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:22:30 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:22:40 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:22:42 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:22:42 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:22:43 INFO  LogUtils:21 - Click install button
+2019-11-17 17:22:43 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:22:43 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:22:43 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:22:43 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:22:43 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:22:49 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:22:49 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:22:49 INFO  LogUtils:31 - Close browser
+2019-11-17 17:24:25 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:24:27 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:24:27 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:24:30 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:24:30 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:24:30 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:24:30 INFO  LogUtils:40 - Click Games
+2019-11-17 17:24:30 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:24:31 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:24:31 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:24:34 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:24:34 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:24:34 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:24:34 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:24:34 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:24:34 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:24:34 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:24:34 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:24:34 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:24:34 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:24:34 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:24:34 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:24:35 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:24:36 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:24:36 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:24:36 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:24:36 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:24:36 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:24:36 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:24:37 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:24:37 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:24:37 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:24:37 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:24:37 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:24:37 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:24:37 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:24:37 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:24:44 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:24:44 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:24:44 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:24:44 INFO  LogUtils:48 - Click Games
+2019-11-17 17:24:44 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:24:44 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:24:54 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:24:56 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:24:56 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:24:57 INFO  LogUtils:21 - Click install button
+2019-11-17 17:24:57 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:24:57 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:24:57 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:24:57 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:24:57 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:25:03 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:25:03 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:25:03 INFO  LogUtils:31 - Close browser
+2019-11-17 17:26:16 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:26:18 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:26:18 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:26:21 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:26:21 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:26:21 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:26:21 INFO  LogUtils:40 - Click Games
+2019-11-17 17:26:21 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:26:21 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:26:22 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:26:26 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:26:26 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:26:26 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:26:26 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:26:26 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:26:26 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:26:26 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:26:26 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:26:26 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:26:26 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:26:26 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:26:26 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:26:26 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:26:27 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:26:27 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:26:27 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:26:28 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:26:28 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:26:28 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:26:29 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:26:29 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:26:29 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:26:29 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:26:29 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:26:29 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:26:29 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:26:29 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:26:35 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:26:35 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:26:35 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:26:35 INFO  LogUtils:48 - Click Games
+2019-11-17 17:26:35 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:26:36 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:26:46 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:26:48 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:26:48 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:26:48 INFO  LogUtils:21 - Click install button
+2019-11-17 17:26:48 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:26:49 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:26:49 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:26:49 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:26:49 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:26:54 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:26:54 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:26:54 INFO  LogUtils:31 - Close browser
+2019-11-17 17:27:34 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:27:35 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:27:35 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:27:38 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:27:38 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:27:38 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:27:38 INFO  LogUtils:40 - Click Games
+2019-11-17 17:27:38 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:27:38 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:27:38 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:27:40 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:27:40 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:27:40 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:27:41 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:27:41 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:27:41 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:27:41 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:27:41 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:27:41 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:27:41 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:27:41 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:27:42 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:27:42 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:27:43 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:27:43 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:27:43 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:27:43 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:27:43 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:27:43 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:27:44 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:27:44 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:27:44 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:27:44 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:27:44 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:27:44 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:27:44 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:27:44 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:27:47 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:27:47 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:27:47 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:27:47 INFO  LogUtils:48 - Click Games
+2019-11-17 17:27:47 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:27:47 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:27:47 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:27:49 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:27:49 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:27:49 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:27:49 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:27:49 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:27:49 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:27:49 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:27:49 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:27:49 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:27:49 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:27:49 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:27:50 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:27:50 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:27:51 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:27:51 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:27:56 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:27:56 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:28:01 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:28:01 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:28:01 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:28:01 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:28:01 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:28:01 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:28:01 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:28:01 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:28:05 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:28:05 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:28:05 INFO  LogUtils:21 - Click install button
+2019-11-17 17:28:05 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:28:06 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:28:06 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:28:06 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:28:06 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:28:06 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:28:08 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:28:08 INFO  LogUtils:31 - Close browser
+2019-11-17 17:28:40 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:28:40 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:28:40 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:28:43 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:28:43 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:28:43 INFO  LogUtils:21 - Click install button
+2019-11-17 17:28:43 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:28:44 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:28:44 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:28:44 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:28:44 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:28:45 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:28:47 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:28:47 INFO  LogUtils:31 - Close browser
+2019-11-17 17:29:04 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:29:05 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:29:05 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:29:08 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:29:08 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:29:08 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:29:08 INFO  LogUtils:40 - Click Games
+2019-11-17 17:29:08 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:29:08 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:29:08 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:29:10 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:29:10 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:29:10 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:29:10 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:29:10 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:29:10 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:29:10 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:29:11 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:29:11 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:29:11 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:29:11 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:29:11 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:29:11 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:29:13 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:29:13 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:29:13 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:29:13 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:29:13 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:29:13 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:29:14 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:29:14 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:29:14 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:29:14 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:29:14 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:29:14 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:29:14 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:29:14 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:29:17 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:29:17 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:29:18 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:29:18 INFO  LogUtils:48 - Click Games
+2019-11-17 17:29:18 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:29:18 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:29:18 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:29:20 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:29:20 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:29:20 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:29:20 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:29:20 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:29:20 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:29:20 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:29:20 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:29:20 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:29:20 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:29:20 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:29:21 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:29:21 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:29:22 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:29:22 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:29:27 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:29:27 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:29:32 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:29:32 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:29:32 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:29:32 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:29:32 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:29:32 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:29:32 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:29:32 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:29:35 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:29:35 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:29:35 INFO  LogUtils:21 - Click install button
+2019-11-17 17:29:35 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:29:35 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:29:35 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:29:35 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:29:35 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:29:36 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:29:38 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:29:38 INFO  LogUtils:31 - Close browser
+2019-11-17 17:29:58 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:29:59 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:29:59 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:30:01 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:30:01 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:30:01 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:30:01 INFO  LogUtils:40 - Click Games
+2019-11-17 17:30:01 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:30:02 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:30:12 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:30:14 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:30:14 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:30:14 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:30:14 INFO  LogUtils:48 - Click Games
+2019-11-17 17:30:14 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:30:15 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:30:15 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:30:17 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:30:17 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:30:17 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:30:17 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:30:17 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:30:17 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:30:18 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:30:18 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:30:18 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:30:18 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:30:18 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:30:18 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:30:18 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:30:19 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:30:19 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:30:24 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:30:24 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:30:30 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:30:30 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:30:30 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:30:30 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:30:30 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:30:30 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:30:30 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:30:30 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:30:35 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:30:35 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:30:35 INFO  LogUtils:21 - Click install button
+2019-11-17 17:30:35 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:30:36 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:30:36 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:30:36 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:30:36 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:30:37 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:30:39 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:30:39 INFO  LogUtils:31 - Close browser
+2019-11-17 17:30:47 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:30:47 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:30:47 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:30:50 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:30:50 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:30:50 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:30:50 INFO  LogUtils:40 - Click Games
+2019-11-17 17:30:50 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:30:50 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:30:51 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:30:53 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:30:53 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:30:53 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:30:53 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:30:53 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:30:53 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:30:53 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:30:53 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:30:53 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:30:53 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:30:53 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:30:54 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:30:54 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:30:55 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:30:55 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:30:55 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:30:55 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:30:55 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:30:55 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:30:56 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:30:56 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:30:56 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:30:56 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:30:56 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:30:56 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:30:56 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:30:56 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:30:59 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:30:59 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:30:59 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:30:59 INFO  LogUtils:48 - Click Games
+2019-11-17 17:30:59 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:30:59 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:30:59 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:31:01 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:31:01 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:31:01 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:31:01 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:31:01 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:31:01 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:31:01 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:31:01 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:31:01 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:31:01 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:31:01 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:31:02 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:31:02 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:31:03 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:31:03 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:31:08 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:31:08 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:31:14 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:31:14 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:31:14 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:31:14 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:31:14 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:31:14 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:31:14 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:31:14 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:31:16 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:31:16 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:31:16 INFO  LogUtils:21 - Click install button
+2019-11-17 17:31:16 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:31:17 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:31:17 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:31:17 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:31:17 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:31:17 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:31:20 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:31:20 INFO  LogUtils:31 - Close browser
+2019-11-17 17:31:39 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:31:39 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:31:40 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:31:43 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:31:43 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:31:43 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:31:43 INFO  LogUtils:40 - Click Games
+2019-11-17 17:31:43 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:31:43 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:31:43 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:31:45 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:31:45 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:31:45 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:31:45 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:31:45 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:31:45 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:31:45 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:31:45 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:31:45 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:31:45 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:31:45 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:31:46 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:31:46 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:31:49 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:31:49 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:31:49 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:31:49 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:31:49 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:31:49 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:31:50 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:31:50 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:31:50 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:31:50 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:31:50 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:31:50 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:31:50 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:31:50 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:31:53 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:31:53 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:31:53 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:31:53 INFO  LogUtils:48 - Click Games
+2019-11-17 17:31:53 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:31:53 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:31:53 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:31:55 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:31:55 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:31:55 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:31:55 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:31:55 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:31:55 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:31:55 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:31:55 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:31:55 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:31:55 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:31:55 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:31:56 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:31:56 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:31:57 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:31:57 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:32:02 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:32:02 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:32:07 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:32:07 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:32:07 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:32:07 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:32:07 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:32:07 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:32:07 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:32:07 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:32:10 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:32:10 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:32:10 INFO  LogUtils:21 - Click install button
+2019-11-17 17:32:10 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:32:11 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:32:11 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:32:11 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:32:11 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:32:11 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:32:13 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:32:13 INFO  LogUtils:31 - Close browser
+2019-11-17 17:35:56 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:35:57 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:35:57 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:36:00 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:36:00 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:36:00 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:36:00 INFO  LogUtils:40 - Click Games
+2019-11-17 17:36:00 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:36:00 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:36:00 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:36:02 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:36:02 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:36:02 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:36:02 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:36:02 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:36:02 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:36:02 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:36:02 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:36:02 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:36:02 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:36:02 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:36:03 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:36:03 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:36:04 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:36:04 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:36:04 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:36:04 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:36:04 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:36:04 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:36:05 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:36:05 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:36:05 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:36:06 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:36:06 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:36:06 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:36:06 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:36:06 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:36:08 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:36:08 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:36:08 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:36:08 INFO  LogUtils:48 - Click Games
+2019-11-17 17:36:08 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:36:08 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:36:08 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:36:12 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:36:12 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:36:12 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:36:12 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:36:12 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:36:12 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:36:12 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:36:12 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:36:12 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:36:12 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:36:12 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:36:13 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:36:13 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:36:14 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:36:14 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:36:19 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:36:19 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:36:24 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:36:24 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:36:24 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:36:24 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:36:24 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:36:25 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:36:25 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:36:25 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:36:27 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:36:27 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:36:27 INFO  LogUtils:21 - Click install button
+2019-11-17 17:36:27 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:36:28 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:36:28 INFO  LogUtils:18 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:36:28 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:36:28 INFO  LogUtils:24 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:36:28 INFO  LogUtils:26 - Waiting for file upload
+2019-11-17 17:36:28 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:36:28 INFO  LogUtils:31 - Close browser
+2019-11-17 17:45:49 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:45:49 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:45:50 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:45:53 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:45:53 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:45:53 INFO  LogUtils:21 - Click install button
+2019-11-17 17:45:53 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:45:54 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:45:54 INFO  LogUtils:22 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:45:54 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:45:54 INFO  LogUtils:28 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:45:54 INFO  LogUtils:30 - Waiting for file upload
+2019-11-17 17:45:56 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:45:56 INFO  LogUtils:31 - Close browser
+2019-11-17 17:46:08 INFO  LogUtils:23 - Set implicitly Wait
+2019-11-17 17:46:09 INFO  LogUtils:25 - Maximize window
+2019-11-17 17:46:09 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:46:11 INFO  LogUtils:24 - Open Main Page
+2019-11-17 17:46:11 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:46:12 INFO  LogUtils:26 - Choose Action Category
+2019-11-17 17:46:12 INFO  LogUtils:40 - Click Games
+2019-11-17 17:46:12 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:46:12 INFO  LogUtils:42 - Click Action category
+2019-11-17 17:46:12 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:46:14 INFO  LogUtils:29 - Check 'Browsing Action' page
+2019-11-17 17:46:14 INFO  LogUtils:25 - Check Action page.
+2019-11-17 17:46:14 INFO  LogUtils:31 - Click Top Selling
+2019-11-17 17:46:14 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:46:14 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:46:14 INFO  LogUtils:33 - Check Top Selling category
+2019-11-17 17:46:14 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:46:14 INFO  LogUtils:35 - Click on the game with the maximum discount
+2019-11-17 17:46:14 INFO  LogUtils:52 - Click game with maximize discount
+2019-11-17 17:46:14 INFO  LogUtils:76 - Get info about games with discount.
+2019-11-17 17:46:14 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:46:15 INFO  LogUtils:78 - Recording information about the selected game
+2019-11-17 17:46:15 INFO  LogUtils:80 - Click Element of games.
+2019-11-17 17:46:16 INFO  LogUtils:38 - Check Age Gate page
+2019-11-17 17:46:16 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:46:16 INFO  LogUtils:24 - Click DropList of year.
+2019-11-17 17:46:16 INFO  LogUtils:26 - Click Button 'Open Page'.
+2019-11-17 17:46:16 INFO  LogUtils:41 - Check selected game page
+2019-11-17 17:46:16 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:46:17 INFO  LogUtils:37 - Compare collections name.
+2019-11-17 17:46:17 INFO  LogUtils:43 - Check equal initial price
+2019-11-17 17:46:17 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:46:17 INFO  LogUtils:45 - Check equal discount price
+2019-11-17 17:46:17 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:46:17 INFO  LogUtils:47 - Check equal discount rate
+2019-11-17 17:46:17 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:46:17 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:46:27 INFO  LogUtils:21 - Open Main Page
+2019-11-17 17:46:27 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:46:28 INFO  LogUtils:23 - Choose Indie Category
+2019-11-17 17:46:28 INFO  LogUtils:48 - Click Games
+2019-11-17 17:46:28 INFO  LogUtils:15 - Hover Games button.
+2019-11-17 17:46:28 INFO  LogUtils:50 - Click Indie category
+2019-11-17 17:46:28 INFO  LogUtils:21 - Click Category button.
+2019-11-17 17:46:29 INFO  LogUtils:26 - Check 'Browsing Indie' page
+2019-11-17 17:46:29 INFO  LogUtils:30 - Check Indie page.
+2019-11-17 17:46:29 INFO  LogUtils:28 - Click Top Selling
+2019-11-17 17:46:30 INFO  LogUtils:36 - Click Top Selling
+2019-11-17 17:46:30 INFO  LogUtils:13 - Click TopSellers button .
+2019-11-17 17:46:30 INFO  LogUtils:30 - Check Top Selling category
+2019-11-17 17:46:30 INFO  LogUtils:42 - Check TopSellers button is displayed.
+2019-11-17 17:46:30 INFO  LogUtils:32 - Click on the game with the minimum discount
+2019-11-17 17:46:30 INFO  LogUtils:47 - Click game with minimal discount
+2019-11-17 17:46:30 INFO  LogUtils:67 - Get info about games with discount.
+2019-11-17 17:46:30 INFO  LogUtils:34 - Find elements DiscountGames button.
+2019-11-17 17:46:30 INFO  LogUtils:69 - Recording information about the selected game
+2019-11-17 17:46:30 INFO  LogUtils:71 - Click Element of games.
+2019-11-17 17:46:32 INFO  LogUtils:35 - Check Age Gate page
+2019-11-17 17:46:32 INFO  LogUtils:18 - Check Div block on the AgeGate page. is displayed.
+2019-11-17 17:46:37 INFO  LogUtils:38 - Check selected game page
+2019-11-17 17:46:37 INFO  LogUtils:35 - Check for collection or game.
+2019-11-17 17:46:42 INFO  LogUtils:40 - Compare game name.
+2019-11-17 17:46:42 INFO  LogUtils:40 - Check equal initial price
+2019-11-17 17:46:42 INFO  LogUtils:30 - Compare discount initial.
+2019-11-17 17:46:42 INFO  LogUtils:42 - Check equal discount price
+2019-11-17 17:46:42 INFO  LogUtils:25 - Compare discount prices.
+2019-11-17 17:46:42 INFO  LogUtils:44 - Check equal discount rate
+2019-11-17 17:46:42 INFO  LogUtils:48 - Compare discount rates.
+2019-11-17 17:46:42 INFO  LogUtils:16 - Go tohttps://store.steampowered.com/
+2019-11-17 17:46:44 INFO  LogUtils:19 - Open Main Page
+2019-11-17 17:46:44 INFO  LogUtils:29 - Check Div block of the main page is displayed.
+2019-11-17 17:46:44 INFO  LogUtils:21 - Click install button
+2019-11-17 17:46:44 INFO  LogUtils:35 - Click 'install' button on the Main page .
+2019-11-17 17:46:45 INFO  LogUtils:23 - Check 'Welcome Steam Page'
+2019-11-17 17:46:45 INFO  LogUtils:22 - Check 'install' button on the 'Welcome Steam' page is displayed.
+2019-11-17 17:46:45 INFO  LogUtils:25 - Click download steam
+2019-11-17 17:46:45 INFO  LogUtils:28 - Click 'install' button on the 'Welcome Steam' page .
+2019-11-17 17:46:46 INFO  LogUtils:30 - Waiting for file upload
+2019-11-17 17:46:46 INFO  LogUtils:27 - Check exist steam file
+2019-11-17 17:46:46 INFO  LogUtils:31 - Close browser

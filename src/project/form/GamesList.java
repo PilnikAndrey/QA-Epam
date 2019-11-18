@@ -31,7 +31,7 @@ public class GamesList {
 
     public ArrayList<WebElement> getDiscountGames(By locator) {
         Button button = new Button(locator,"DiscountGames button");
-        LogUtils.getLog().info(String.format("Find elements %s.",button.getNameOfElement()));
+        LogUtils.info(String.format("Find elements %s.",button.getNameOfElement()));
         return button.findElements();
     }
 
@@ -64,21 +64,21 @@ public class GamesList {
     }
 
     public void clickMin() {
-        LogUtils.getLog().info("Get info about games with discount.");
+        LogUtils.info("Get info about games with discount.");
         getGamesWithDiscount();
-        LogUtils.getLog().info("Recording information about the selected game");
+        LogUtils.info("Recording information about the selected game");
         setInfoDiscountGame(getMinimal());
-        LogUtils.getLog().info(String.format("Click %s.",getElementOfGames(discountRateLocator, getMaximize()).getNameOfElement()));
-        getElementOfGames(discountRateLocator, getMinimal()).clickButton();
+        LogUtils.info(String.format("Click %s.",getElementOfGames(discountRateLocator, getMaximize()).getNameOfElement()));
+        getElementOfGames(discountRateLocator, getMinimal()).click();
     }
 
     public void clickMax() {
-        LogUtils.getLog().info("Get info about games with discount.");
+        LogUtils.info("Get info about games with discount.");
         getGamesWithDiscount();
-        LogUtils.getLog().info("Recording information about the selected game");
+        LogUtils.info("Recording information about the selected game");
         setInfoDiscountGame(getMaximize());
-        LogUtils.getLog().info(String.format("Click %s.",getElementOfGames(discountRateLocator, getMaximize()).getNameOfElement()));
-        getElementOfGames(discountRateLocator, getMaximize()).clickButton();
+        LogUtils.info(String.format("Click %s.",getElementOfGames(discountRateLocator, getMaximize()).getNameOfElement()));
+        getElementOfGames(discountRateLocator, getMaximize()).click();
     }
 
     private Button getElementOfGames(String locator, int index) {
@@ -107,8 +107,7 @@ public class GamesList {
     }
 
     private void setInfoDiscountGame(int index) {
-        Games games;
-        games = gamesArrayList.get(index - ONE);
+        Games games = gamesArrayList.get(index - ONE);
         MaxDiscountGame.setDiscountedPrices(games.getDiscountedPrices());
         MaxDiscountGame.setDiscountRate(games.getDiscountRate());
         MaxDiscountGame.setInitial(games.getInitial());

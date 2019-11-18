@@ -1,6 +1,7 @@
 package project.test;
 
-import framework.utils.ExistFile;
+import framework.utils.ConfigReader;
+import framework.utils.FileUtils;
 import framework.utils.LogUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,15 +17,15 @@ public class SteamDownload extends Base {
     public void downloadSteamApp() {
         mainPage = new MainPage();
         welcomeSteamPage = new WelcomeSteamPage();
-        LogUtils.getLog().info("Open Main Page");
-        Assert.assertTrue(mainPage.checkMainPage(), "The Main page is not opened.");
-        LogUtils.getLog().info("Click install button");
+        LogUtils.info("Open Main Page");
+        Assert.assertTrue(mainPage.isCheckMainPage(), "The Main page is not opened.");
+        LogUtils.info("Click install button");
         mainPage.clickInstallButton();
-        LogUtils.getLog().info("Check 'Welcome Steam Page'");
-        Assert.assertTrue(welcomeSteamPage.checkWelcomeSteamPage(), "The Welcome Steam page is not opened.");
-        LogUtils.getLog().info("Click download steam");
+        LogUtils.info("Check 'Welcome Steam Page'");
+        Assert.assertTrue(welcomeSteamPage.isCheckWelcomeSteamPage(), "The Welcome Steam page is not opened.");
+        LogUtils.info("Click download steam");
         welcomeSteamPage.clickInstallButton();
-        LogUtils.getLog().info("Check exist steam file");
-        Assert.assertTrue(ExistFile.checkExistFile(), "The steam app setup file isn't downloaded.");
+        LogUtils.info("Check exist steam file");
+        Assert.assertTrue(FileUtils.isExistFile(ConfigReader.getProperty("download_folder"), ConfigReader.getProperty("file_name")), "The steam app setup file isn't downloaded.");
     }
 }

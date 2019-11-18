@@ -3,8 +3,8 @@ package framework.elements;
 import framework.base.BaseElement;
 import org.openqa.selenium.By;
 
-public class Block extends BaseElement {
-    public Block(By locator, String nameOfElement) {
+public class Label extends BaseElement {
+    public Label(By locator, String nameOfElement) {
         super(locator, nameOfElement);
     }
 }

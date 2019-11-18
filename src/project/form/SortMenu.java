@@ -10,7 +10,7 @@ public class SortMenu {
 
     public void clickMenuItem(By locator) {
         menuButton = new Button(locator,"TopSellers button");
-        LogUtils.getLog().info(String.format("Click %s .",menuButton.getNameOfElement()));
-        menuButton.clickButton();
+        LogUtils.info(String.format("Click %s .",menuButton.getNameOfElement()));
+        menuButton.click();
     }
 }

@@ -3,6 +3,7 @@ package framework.browser;
 import framework.exception.DriverError;
 import framework.utils.BrowserOptions;
 import framework.utils.ConfigReader;
+import framework.utils.LogUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,11 +29,13 @@ public class BrowserFactory {
     }
 
     private static FirefoxDriver getFfInstance() {
+        LogUtils.info(String.format("Get firefox driver"));
         WebDriverManager.firefoxdriver().setup();
         return new FirefoxDriver(BrowserOptions.firefoxOptions());
     }
 
     private static ChromeDriver getChromeInstance() {
+        LogUtils.info(String.format("Get chrome driver"));
         WebDriverManager.chromedriver().setup();
         return new ChromeDriver(BrowserOptions.chromeOptions());
     }
