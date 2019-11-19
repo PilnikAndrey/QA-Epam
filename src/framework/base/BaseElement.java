@@ -11,8 +11,9 @@ import java.util.ArrayList;
 
 public abstract class BaseElement {
 
-    private By locator;
+    protected By locator;
     private String nameOfElement;
+
 
     public BaseElement(By locator, String nameOfElement) {
         this.locator = locator;
@@ -22,6 +23,10 @@ public abstract class BaseElement {
     public void click() {
         LogUtils.info(String.format("Click %s .", nameOfElement));
         Browser.getDriver().findElement(locator).click();
+    }
+
+    public By getLocator() {
+        return locator;
     }
 
     public String getNameOfElement() {

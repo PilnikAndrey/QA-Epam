@@ -3,7 +3,6 @@ package framework.browser;
 import framework.exception.DriverError;
 import framework.utils.ConfigReader;
 import framework.utils.LogUtils;
-import framework.waits.Waiter;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;

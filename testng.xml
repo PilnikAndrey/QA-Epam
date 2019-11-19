@@ -4,8 +4,7 @@
 
     <test name="Second Test Suite">
         <classes>
-            <class name="project.test.HighestDiscount"/>
-            <class name="project.test.LowestDiscount"/>
+            <class name="project.test.DiscountRateTest"/>
         </classes>
     </test>
 

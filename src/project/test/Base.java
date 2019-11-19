@@ -11,6 +11,7 @@ import org.testng.annotations.AfterSuite;
 
 public class Base {
 
+
     @BeforeClass
     public void getUrl() {
         LogUtils.info("Go to" + ConfigReader.getProperty("url"));

@@ -2,8 +2,8 @@ package project.pageObject;
 
 import framework.elements.Button;
 import framework.utils.LogUtils;
-import framework.utils.MaxDiscountGame;
 import org.openqa.selenium.By;
+import project.models.Games;
 
 public class GamePage {
 
@@ -16,32 +16,34 @@ public class GamePage {
     private Button discountPriceButton = new Button(By.xpath(String.format(STRING_FORMAT_DISCOUNT, "//div[@class='discount_prices']//div[@class='discount_final_price']")), "DiscountPrice button");
     private Button initialButton = new Button(By.xpath(String.format(STRING_FORMAT_DISCOUNT, "//div[@class='discount_prices']//div[@class='discount_original_price']")), "InitialPrice button");
 
-    public boolean isEqualsDiscountPrice() {
+    public boolean isEqualsDiscountPrice(Games game) {
         LogUtils.info("Compare discount prices.");
-        return discountPriceButton.getText().contains(MaxDiscountGame.getDiscountedPrices());
+        return discountPriceButton.getText().contains(game.getDiscountedPrices());
     }
 
-    public boolean isEqualsDiscountInitial() {
+    public boolean isEqualsDiscountInitial(Games game) {
         LogUtils.info("Compare discount initial.");
-        return MaxDiscountGame.getInitial().contains(initialButton.getText());
+        return game.getInitial().contains(initialButton.getText());
     }
 
-    public boolean isEqualsName() {
+    public boolean isEqualsName(Games game) {
         LogUtils.info("Check for collection or game.");
         if (collectionsGameButton.isDisplayed()) {
             LogUtils.info("Compare collections name.");
-            return collectionsGameButton.getText().toUpperCase().equals(MaxDiscountGame.getName().toUpperCase());
+            collectionsGameButton.waitVisibilityOfElement();
+            return collectionsGameButton.getText().toUpperCase().equals(game.getName().toUpperCase());
         } else if (gameButton.isDisplayed()) {
             LogUtils.info("Compare game name.");
-            return gameButton.getText().toUpperCase().equals(MaxDiscountGame.getName().toUpperCase());
+            gameButton.waitVisibilityOfElement();
+            return gameButton.getText().toUpperCase().equals(game.getName().toUpperCase());
         } else {
             return false;
         }
     }
 
-    public boolean isEqualsDiscountRate() {
+    public boolean isEqualsDiscountRate(Games game) {
         LogUtils.info("Compare discount rates.");
-        return Integer.parseInt(discountRateButton.getText().substring(ONE, discountRateButton.getText().length() - ONE)) == MaxDiscountGame.getDiscountRate();
+        return Integer.parseInt(discountRateButton.getText().substring(ONE, discountRateButton.getText().length() - ONE)) == game.getDiscountRate();
     }
 
 }

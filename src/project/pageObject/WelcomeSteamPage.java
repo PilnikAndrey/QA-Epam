@@ -6,14 +6,12 @@ import framework.utils.LogUtils;
 import org.openqa.selenium.By;
 
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 import static org.awaitility.Awaitility.await;
 
 public class WelcomeSteamPage {
     private Button buttonInstall = new Button(By.xpath("//a[@class='about_install_steam_link']"), "'install' button on the 'Welcome Steam' page");
-    private Path filePath = Paths.get(ConfigReader.getProperty("download_folder") + ConfigReader.getProperty("file_name"));
 
 
     public boolean isCheckWelcomeSteamPage() {
@@ -21,7 +19,7 @@ public class WelcomeSteamPage {
         return buttonInstall.isDisplayed();
     }
 
-    public void clickInstallButton() {
+    public void clickInstallButton(Path filePath) {
         buttonInstall.waitVisibilityOfElement();
         LogUtils.info(String.format("Click %s .", buttonInstall.getNameOfElement()));
         buttonInstall.click();
@@ -29,6 +27,5 @@ public class WelcomeSteamPage {
         await().atMost(Integer.parseInt(ConfigReader.getProperty("explicitlyWait")), TimeUnit.SECONDS)
                 .ignoreExceptions()
                 .until(() -> filePath.toFile().exists());
-
     }
 }

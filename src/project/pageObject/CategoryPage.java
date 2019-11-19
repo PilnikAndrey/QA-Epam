@@ -5,53 +5,37 @@ import framework.elements.Button;
 import framework.utils.GetDictionary;
 import framework.utils.LogUtils;
 import framework.utils.XmlReader;
-import framework.waits.Waiter;
 import org.openqa.selenium.By;
 import project.form.GamesList;
+import project.models.Games;
 
 
 public class CategoryPage {
-
-    private By checkCategoryPage = By.xpath("//h2[@class='pageheader']");
-    private By topSelling = By.xpath("//div[@id='tab_select_TopSellers']//div[@class='tab_content']");
-    private By topSellingActive = By.xpath("//div[@id='tab_select_TopSellers' and contains(@class,'tab  tab_filler active')]");
 
     private Label nameOfCategoryLabel = new Label(By.xpath("//h2[@class='pageheader']"), "NameOfCategory");
     private Button menuButton = new Button(By.xpath("//div[@id='tab_select_TopSellers' and contains(@class,'tab  tab_filler active')]"), "TopSellers button");
 
     private GamesList gamesList = new GamesList();
 
-    public boolean isCheckActionPage() {
-        LogUtils.info("Check Action page.");
-        return nameOfCategoryLabel.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), "actions"));
-    }
-
-    public boolean isCheckIndiPage() {
-        LogUtils.info("Check Indie page.");
-        return nameOfCategoryLabel.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), "indi"));
+    public boolean isCheckCategoryPage(String category) {
+        LogUtils.info(String.format("Check %s page.", category));
+        return nameOfCategoryLabel.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), category));
     }
 
     public void clickTopSelling() {
-        Waiter.waitVisibilityOfElementLocated(topSelling);
         LogUtils.info("Click Top Selling");
-        gamesList.getSortMenu().clickMenuItem(topSelling);
+        gamesList.getSortMenu().clickMenuItem();
     }
 
     public boolean isCheckTopSelling() {
-        Waiter.waitVisibilityOfElementLocated(topSellingActive);
-        LogUtils.info(String.format("Check %s is displayed.",menuButton.getNameOfElement()));
+        menuButton.waitVisibilityOfElement();
+        LogUtils.info(String.format("Check %s is displayed.", menuButton.getNameOfElement()));
         return menuButton.isDisplayed();
     }
 
-    public void clickMin() {
+    public void clickGameWithChosenDiscountRate(Games game, String rate) {
         LogUtils.info("Click game with minimal discount");
-        gamesList.clickMin();
+        gamesList.clickGameWithChosenRate(game, rate);
     }
-
-    public void clickMax() {
-        LogUtils.info("Click game with maximize discount");
-        gamesList.clickMax();
-    }
-
 
 }
