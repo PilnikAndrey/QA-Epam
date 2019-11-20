@@ -13,7 +13,7 @@ public class MainPage {
     private Button homeButton = new Button(By.xpath("//div[@class='logo']"), "logo steam");
     private MainMenu mainMenu = new MainMenu();
 
-    public boolean isCheckMainPage() {
+    public boolean isMainPageDisplayed() {
         LogUtils.info(String.format("Check %s is displayed.", labelOfTheMainPage.getNameOfElement()));
         labelOfTheMainPage.waitVisibilityOfElement();
         return labelOfTheMainPage.isDisplayed();

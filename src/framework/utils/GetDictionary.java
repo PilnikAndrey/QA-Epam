@@ -9,6 +9,6 @@ public class GetDictionary {
         if (ConfigReader.getProperty("lang").equals("en-US")) {
             dictionary = "en_dictionary";
         }
-        return ConfigReader.getProperty(dictionary);
+        return ConfigReader.getTestData(dictionary);
     }
 }

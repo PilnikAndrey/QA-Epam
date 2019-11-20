@@ -15,21 +15,21 @@ public class SteamDownload extends Base {
 
     private MainPage mainPage;
     private WelcomeSteamPage welcomeSteamPage;
-    private Path filePath = Paths.get(ConfigReader.getProperty("download_folder") + ConfigReader.getProperty("file_name"));
+    private Path filePath = Paths.get(String.format(System.getProperty("user.dir"), ConfigReader.getTestData("download_folder"), ConfigReader.getTestData("file_name")));
 
     @Test
     public void downloadSteamApp() {
         mainPage = new MainPage();
         welcomeSteamPage = new WelcomeSteamPage();
         LogUtils.info("Open Main Page");
-        Assert.assertTrue(mainPage.isCheckMainPage(), "The Main page is not opened.");
+        Assert.assertTrue(mainPage.isMainPageDisplayed(), "The Main page is not opened.");
         LogUtils.info("Click install button");
         mainPage.clickInstallButton();
         LogUtils.info("Check 'Welcome Steam Page'");
-        Assert.assertTrue(welcomeSteamPage.isCheckWelcomeSteamPage(), "The Welcome Steam page is not opened.");
+        Assert.assertTrue(welcomeSteamPage.isWelcomeSteamPageDisplayed(), "The Welcome Steam page is not opened.");
         LogUtils.info("Click download steam");
         welcomeSteamPage.clickInstallButton(filePath);
         LogUtils.info("Check exist steam file");
-        Assert.assertTrue(FileUtils.isExistFile(ConfigReader.getProperty("download_folder"), ConfigReader.getProperty("file_name")), "The steam app setup file isn't downloaded.");
+        Assert.assertTrue(FileUtils.isExistFile(filePath.toString()), "The steam app setup file isn't downloaded.");
     }
 }

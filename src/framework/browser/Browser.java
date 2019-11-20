@@ -32,6 +32,7 @@ public class Browser {
     }
 
     public static void setImplicitlyWait() {
+        LogUtils.info("Set implicitly wait");
         Browser.getDriver().manage().timeouts().implicitlyWait(Integer.parseInt(ConfigReader.getProperty("implicitlyWait")), TimeUnit.SECONDS);
     }
 }

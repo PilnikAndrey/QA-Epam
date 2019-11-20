@@ -16,5 +16,17 @@ public class ConfigReader {
         }
         return prop.getProperty(key);
     }
+
+    public static String getTestData(String key) {
+        Properties prop = new Properties();
+        try {
+            InputStream input = new FileInputStream("src/project/resources/dataConfig.properties");
+            prop.load(input);
+            prop.getProperty(key);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return prop.getProperty(key);
+    }
 }
 

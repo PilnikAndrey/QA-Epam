@@ -13,16 +13,16 @@ public class AgeGatePage {
     private DropList yearList = new DropList(By.xpath("//*[@id='ageYear']"), "DropList of year");
     private Button viewPageButton = new Button(By.xpath("//a[@onclick='ViewProductPage()']"), "Button 'Open Page'");
 
-    private boolean isCheckAgeGate() {
+    private boolean isAgeGatePageDisplayed() {
         LogUtils.info(String.format("Check %s is displayed.",ageGateButton.getNameOfElement()));
         return ageGateButton.isDisplayed();
     }
 
     public void checkAgeGatePage() {
-        if (isCheckAgeGate()) {
+        if (isAgeGatePageDisplayed()) {
             LogUtils.info(String.format("Click %s.",yearList.getNameOfElement()));
             yearList.click();
-            yearList.selectFromList(ConfigReader.getProperty("year"));
+            yearList.selectFromList(ConfigReader.getTestData("year"));
             LogUtils.info(String.format("Click %s.",viewPageButton.getNameOfElement()));
             viewPageButton.click();
         }

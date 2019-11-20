@@ -17,7 +17,7 @@ public class CategoryPage {
 
     private GamesList gamesList = new GamesList();
 
-    public boolean isCheckCategoryPage(String category) {
+    public boolean isCategoryPageDisplayed(String category) {
         LogUtils.info(String.format("Check %s page.", category));
         return nameOfCategoryLabel.getText().contains(XmlReader.readXml(GetDictionary.getDictionary(), category));
     }
@@ -27,7 +27,7 @@ public class CategoryPage {
         gamesList.getSortMenu().clickMenuItem();
     }
 
-    public boolean isCheckTopSelling() {
+    public boolean isTopSellingMenuDisplayed() {
         menuButton.waitVisibilityOfElement();
         LogUtils.info(String.format("Check %s is displayed.", menuButton.getNameOfElement()));
         return menuButton.isDisplayed();

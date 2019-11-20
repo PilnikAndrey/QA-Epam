@@ -14,7 +14,7 @@ public class WelcomeSteamPage {
     private Button buttonInstall = new Button(By.xpath("//a[@class='about_install_steam_link']"), "'install' button on the 'Welcome Steam' page");
 
 
-    public boolean isCheckWelcomeSteamPage() {
+    public boolean isWelcomeSteamPageDisplayed() {
         LogUtils.info(String.format("Check %s is displayed.", buttonInstall.getNameOfElement()));
         return buttonInstall.isDisplayed();
     }
