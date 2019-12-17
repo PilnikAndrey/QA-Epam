@@ -1,5 +1,6 @@
 import driver.Driver;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -17,17 +18,40 @@ public class Test1 {
 
     }
 
-    @Test
-    public void equalsStartsAndHotels() throws InterruptedException {
+    /*@Test
+    public void equalsStartsAndHotels() {
         Driver.getDriver().get("https://www.agoda.com/");
         mainPage.enterCity();
         mainPage.enterStartDate();
       //  mainPage.enterEndDate();
         mainPage.searchHotel();
         mainPage.setStarts();
+        Assert.assertTrue(mainPage.equalsCountHotels(),"Error");
+        Driver.getDriver().close();
+
     }
-    @AfterTest
+
+     */
+
+    @Test
+    public void checkBookYesterday() {
+        Driver.getDriver().get("https://www.agoda.com/");
+        mainPage.enterCity();
+        mainPage.enterStartDate();
+        mainPage.searchHotel();
+        mainPage.clickCalendar();
+        Assert.assertFalse(mainPage.checkYesterday(),"ERROR");
+        Driver.getDriver().close();
+
+    }
+
+
+
+
+   /* @AfterTest
     public void closeDriver() {
         Driver.getDriver().close();
     }
+
+    */
 }

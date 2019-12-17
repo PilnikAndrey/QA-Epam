@@ -1,0 +1,6 @@
+browser=chrome
+lang=en-US
+url=https://store.steampowered.com/
+log_config=src/project/resources/log.properties
+implicitlyWait=5
+explicitlyWait=10

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+
+    <test name="Second Test Suite">
+        <classes>
+            <class name="project.test.DiscountRateTest"/>
+        </classes>
+    </test>
+
+    <test name="First Test Suite">
+        <classes>
+            <class name="project.test.SteamDownload"/>
+        </classes>
+    </test>
+
+
+</suite>
+
